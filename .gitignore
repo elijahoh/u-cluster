@@ -1,0 +1,15 @@
+# AI & Local Tooling
+.aider*
+*.log
+
+# Editor & OS artifacts
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# GitOps & Secrets safety (prevents accidental key commits)
+*.key
+*.pem
+age.key
+.env
